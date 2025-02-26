@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something for Her</title>
+    <link rel="stylesheet" href="Her.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+        <source src="wanna_be_yours.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="playMusic">Play the music</button>
+
+    <!-- Home Page Section -->
+    <header class="hero">
+        <h1>HER ❤️</h1>
+        <h2 class="pretty-text">THE PRETTIEST OF PRETTY</h2>
+
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Her</h2>
+        <p>Her presence lights up my world in a way no one else ever could. Whenever she was near everything seemed brighter more joyful and full of warmth. Every moment spent with her felt like a treasure. We shared so many laughs experiences and memories each one making my life richer. Her smile was like the sun always brightening my days and her love was the steady force that kept me grounded no matter how tough life got. In her eyes I found peace and hope and in her embrace I found a sense of home and comfort that I had never known before.
+
+            But it's not just her love and kindness that I remember. It's her beauty something that can’t be matched by anyone or anything. Her beauty wasn’t just on the outside although she was more beautiful than words can describe. It was in the way she moved the way she laughed the way she cared for the people around her. Her elegance and grace were unmatched and every time I looked at her I saw something unique something rare. Her beauty wasn’t just skin deep it came from within from her generous heart her wisdom and the way she made everyone feel special.
+            
+            Her smile could make the darkest days feel brighter and her eyes held a kindness and depth that made everyone feel understood. There was something captivating about her a warmth in her presence that no one else could ever replicate. No one could compare to her beauty because it wasn’t just how she looked it was the way she made life more beautiful by simply being in it. Even though we’re not together anymore I’ll always carry the memory of her beauty and the love we shared. It’s something I’ll never forget something that will always stay with me.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="image-grid">
+            <img src="her 1.jpg" alt="Her smiling">
+            <img src="her 2.jpg" alt="Her laughing">
+            <img src="her 3.jpg" alt="Her being beautiful">
+        </div>
+    </section>
+
+    <!-- Love Letter Section -->
+    <section class="love-letter">
+        <h2>A Special Message For Her</h2>
+        <p>I could write a thousand stories, each in a different way,
+
+            But none would tell how you brighten my life every day.
+            
+            I could climb a hundred mountains through sun and through rain,
+            
+            But no summit could match the heights of love I can't contain.
+            
+            I could craft a thousand poems in words both old and new,
+            
+            Yet none could capture the depth of my feelings for you.
+            
+            I could dance through endless nights beneath a sky so blue,
+            
+            But none would express just how much I adore you</p>
+    </section>
+
+    <script>
+        document.getElementById('playMusic').addEventListener('click', function() {
+            let audio = document.getElementById('bg-music');
+            audio.play();
+            this.style.display = "none";
+        });
+    </script>
+</body>
+</html>

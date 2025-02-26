@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="for her.css">
+</head>
+<body>
+
+    <div class="intro">
+        <span class="emoji" id="dog-emoji">🐶</span>
+        <h1 id="message">Hey Beautiful, do you wanna see the website I made for you? 💖</h1>
+        <div class="intro-buttons">
+            <button onclick="sayYes()">Yes</button>
+            <button onclick="sayNo()">No</button>
+        </div>
+    </div>
+
+    <script>
+        function sayYes() {
+            document.getElementById('message').innerText = "Yayyy! 🎉";
+            document.getElementById('dog-emoji').innerText = "🐶💖";
+            setTimeout(() => {
+                window.location.href = "her.html"; 
+            }, 2000);
+        }
+
+        function sayNo() {
+            document.getElementById('message').innerText = "Please click yes ";
+            document.getElementById('dog-emoji').innerText = "🐶🥺";
+        }
+    </script>
+
+</body>
+</html>
